@@ -1,0 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+body {
+  font-family: $font-primary, sans-serif;
+  color: map-get($color , "primary");
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}

@@ -1,0 +1,41 @@
+.container{
+    max-width: map-get($breakpoint , 'lg' );
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    h1{
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    h2{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    h3{
+        font-size: 36px;
+    }
+    a{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    @include pad{
+        max-width: map-get($breakpoint , 'md' );
+        padding: 0 36px;
+        h1{
+            font-size: 2rem;
+        }
+        h2{
+            font-size: 28px;
+        }
+        h3{
+            font-size: 1rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    @include phone{
+        max-width: map-get($breakpoint , 'sm' );
+        padding: 0 14px 0 13px;
+    }
+}

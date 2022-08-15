@@ -1,0 +1,22 @@
+body{
+    position: relative;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a{
+        display: block;
+        padding: 25px 1rem;
+        color: map-get($color , 'white');
+        &:hover{  
+            background: map-get($color , 'primary');
+        }
+    }
+}
+.hero_banner{
+    background: url(../images/home-header.png) no-repeat;
+    background-size: cover;
+    height: 787px;
+}
+
