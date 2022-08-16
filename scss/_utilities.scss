@@ -190,10 +190,6 @@
 .fz-px-29{
     font-size: 29px;
 }
-.py-px-12{
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
 
 
 
@@ -203,6 +199,9 @@
 
 .w-100{
     width: 100%;
+}
+.w-50{
+    width: 50%;
 }
 
 .text-center{
@@ -216,7 +215,9 @@
 .text-left{
     text-align: left;
 }
-
+.font-style-italic{
+    font-style: italic;
+}
 .d-none{
     display: none;
 }

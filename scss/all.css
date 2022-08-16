@@ -64,6 +64,12 @@ button {
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
 .container {
   max-width: 1328px;
   margin: 0 auto;
@@ -79,7 +85,11 @@ button {
   font-weight: bold;
 }
 .container h3 {
-  font-size: 36px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.container p {
+  color: #000;
 }
 .container a {
   font-size: 20px;
@@ -2546,8 +2556,8 @@ button {
   color: #AA0601;
 }
 
-.color-info-color {
-  color: #221E1F;
+.color-contextbg {
+  color: #FBF2F2;
 }
 
 .color-white {
@@ -2566,8 +2576,8 @@ button {
   background: #AA0601;
 }
 
-.bg-info-color {
-  background: #221E1F;
+.bg-contextbg {
+  background: #FBF2F2;
 }
 
 .bg-white {
@@ -2598,14 +2608,14 @@ button {
   background: #2b0200;
 }
 
-.btn-info-color {
+.btn-contextbg {
   display: inline-block;
   border-radius: 50rem;
-  background: #221E1F;
+  background: #FBF2F2;
   cursor: pointer;
 }
-.btn-info-color:hover {
-  background: black;
+.btn-contextbg:hover {
+  background: #dd9191;
 }
 
 .btn-white {
@@ -2640,17 +2650,16 @@ button {
   font-size: 29px;
 }
 
-.py-px-12 {
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-
 .fw-b {
   font-weight: bold;
 }
 
 .w-100 {
   width: 100%;
+}
+
+.w-50 {
+  width: 50%;
 }
 
 .text-center {
@@ -2663,6 +2672,10 @@ button {
 
 .text-left {
   text-align: left;
+}
+
+.font-style-italic {
+  font-style: italic;
 }
 
 .d-none {
@@ -2764,6 +2777,24 @@ button {
   }
 }
 
+.btn {
+  display: inline-block;
+  background: #AA0601;
+  padding: 6px 12px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #650300;
+}
+
+.icon {
+  display: block;
+  font-size: 84px;
+  text-align: center;
+}
+
 .card {
   border-radius: 12px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.0784313725);
@@ -2781,18 +2812,6 @@ button {
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.0784313725);
-}
-
-.btn {
-  display: inline-block;
-  background: #AA0601;
-  padding: 6px 12px;
-  font-size: 20px;
-  color: #fff;
-  cursor: pointer;
-}
-.btn:hover {
-  background: #650300;
 }
 
 html {
@@ -2832,4 +2851,9 @@ body {
   background: url(../images/home-header.png) no-repeat;
   background-size: cover;
   height: 787px;
+}
+
+.joint {
+  background: url(../images/index-bg.png) no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=all.css.map */
