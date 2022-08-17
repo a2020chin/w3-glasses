@@ -24,3 +24,15 @@ body{
     background-size: cover;
 }
 
+.from{
+    &-input{
+        padding: 6px 0 6px 12px;
+        font-size: 16px;
+        border: 1px solid #000000;
+    }
+    &-opinion{
+        padding: 6px 0 106px 12px;
+        font-size: 16px;
+        border: 1px solid #000000;
+    }
+}

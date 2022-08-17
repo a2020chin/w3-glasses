@@ -3,25 +3,6 @@
     margin: 0 auto;
     padding-left: 1rem;
     padding-right: 1rem;
-    h1{
-        font-size: 4rem;
-        font-weight: bold;
-    }
-    h2{
-        font-size: 3rem;
-        font-weight: bold;
-    }
-    h3{
-        font-size: 24px;
-        font-weight: bold;
-    }
-    p{
-        color: #000;
-    }
-    a{
-        font-size: 20px;
-        line-height: 30px;
-    }
     @include pad{
         max-width: map-get($breakpoint , 'md' );
         padding: 0 36px;
@@ -42,4 +23,5 @@
         max-width: map-get($breakpoint , 'sm' );
         padding: 0 14px 0 13px;
     }
-}
+  }
+  

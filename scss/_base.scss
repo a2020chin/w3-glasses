@@ -1,14 +1,29 @@
 html {
     scroll-behavior: smooth;
 }
-  
 body {
   font-family: $font-primary, sans-serif;
   color: map-get($color , "primary");
   line-height: 1.5;
 }
-
+h1{
+  font-size: 4rem;
+  font-weight: bold;
+}
+h2{
+  font-size: 3rem;
+  font-weight: bold;
+}
+h3{
+  font-size: 24px;
+  font-weight: bold;
+}
+p {
+  color: #000;
+}
 a {
+  font-size: 20px;
+  line-height: 30px;
   text-decoration: none;
   transition: 0.3s;
 }
