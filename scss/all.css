@@ -2645,6 +2645,10 @@ img {
   padding: 6px 12px;
 }
 
+.gap-4 {
+  gap: 2rem;
+}
+
 .fw-b {
   font-weight: bold;
 }
@@ -2749,6 +2753,10 @@ img {
   vertical-align: sub;
 }
 
+.vertical-middle {
+  vertical-align: middle;
+}
+
 .margin-center {
   margin: 0 auto;
 }
@@ -2793,6 +2801,11 @@ img {
   display: block;
   font-size: 84px;
   text-align: center;
+}
+
+.ft-icon {
+  width: 48px;
+  height: 48px;
 }
 
 .card {
@@ -2888,4 +2901,8 @@ body {
   padding: 6px 0 106px 12px;
   font-size: 16px;
   border: 1px solid #000000;
+}
+
+.ft-border {
+  border-bottom: 1px solid white;
 }/*# sourceMappingURL=all.css.map */
