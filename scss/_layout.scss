@@ -13,11 +13,32 @@ body{
             background: map-get($color , 'primary');
         }
     }
+    @include phone{
+        display: none;
+    }
+}
+.sm-menu{
+    display: none;
+    @include phone{
+        display: block;
+        position: relative;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+    }
+}
+.sm-nav{
+    display: none;
 }
 .hero_banner{
     background: url(../images/home-header.png) no-repeat;
     background-size: cover;
     height: 787px;
+    @include phone{
+        background: url(../images/home-header-sm.png) no-repeat;
+        background-size: cover;
+        height: 396px;
+    }
 }
 .joint{
     background: url(../images/index-bg.png) no-repeat;
@@ -39,4 +60,9 @@ body{
 
 .ft-border{
     border-bottom:1px solid white;
+}
+.ft-sm-border{
+    @include phone{
+        border-bottom:1px solid white;
+    }
 }

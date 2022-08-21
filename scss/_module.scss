@@ -8,10 +8,6 @@
         height: 48.57px;
         background: url(../images/logo-white.png) no-repeat;
         background-size: cover;
-        @include phone{
-            width: 130px;
-            height: 24px;
-        }
     }
 }
 .btn{
@@ -30,6 +26,20 @@
 .ft-icon{
     width: 48px;
     height: 48px;
+    @include pad{
+        width: 40px;
+        height: 40px;
+    }
+    @include phone{
+        width: 24px;
+        height: 24px;
+    }
+}
+.ft-contact{
+    font-size: 36px;
+    @include phone{
+        font-size: 18px;
+    }
 }
 
 .card{

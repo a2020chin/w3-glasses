@@ -187,24 +187,53 @@
 .fz-px-14{
     font-size: 14px;
 }
+.fz-sm-6{
+    @include phone{
+        font-size: 3rem;
+    }
+}
+.fz-sm-2{
+    @include phone{
+        font-size: 1rem;
+    }
+}
+.py-px-12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
 .p-btn{
     padding: 6px 12px;
 }
 .gap-4{
     gap: 2rem;
 }
-
+.gap-md-2{
+    @include pad{
+        gap: 1rem;
+    }
+}
+.gap-sm-1{
+    @include phone{
+        gap: 0.5rem;
+    }
+}
 
 .fw-b{
     font-weight: bold;
 }
-
-.w-100{
-    width: 100%;
-}
 .w-50{
     width: 50%;
 }
+.w-100{
+    width: 100%;
+}
+
+.w-md-100{
+    @include pad{
+        width: 100%;
+    }
+}
+
 
 .mx-a{
     margin: 0 auto;
@@ -226,9 +255,23 @@
 .d-none{
     display: none;
 }
-  
+.d-sm-none{
+    @include phone{
+        display: none;
+    }
+}
+.d-sm-block{
+    @include phone{
+        display: block;
+    }
+}
 .d-flex{
     display: flex;
+}
+.d-sm-flex{
+    @include phone{
+        display: flex;
+    }
 }
 .d-grid{
     display: grid;
@@ -256,10 +299,27 @@
 .align-items-center{
     align-items: center;
 }
+.align-items-sm-start{
+    @include phone{
+        align-items: start;
+    }
+}
 
 .flex-column{
     display: flex;
     flex-direction: column;
+}
+.flex-md-column{
+    @include pad{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.flex-sm-column{
+    @include phone{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .flex-center{
